@@ -250,3 +250,182 @@ http://icecast.pulsradio.com/puls00HD.mp3
 http://icecast.pulsradio.com/puls90HD.mp3
 #EXTINF:0,245. Chante France
 http://stream1.chantefrance.com/Chante_France
+
+#EXTM3U x-tvg-url="https://i.mjh.nz/SamsungTVPlus/fr.xml"
+#EXTINF:-1 channel-id="samsung-FRBD37000020Y" tvg-id="FRBD37000020Y" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD37000020Y_20231213T033030SQUARE.png_20231213033035.png" tvg-chno="4001" group-title="Séries TV" , Plus belle la vie
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD37000020Y.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD37000020Y -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD410000783" tvg-id="FRBD410000783" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD410000783_20231213T034713SQUARE.png_20231213034713.png" tvg-chno="4002" group-title="Actualités" , BFM TV
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD410000783.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD410000783 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA1000005TW" tvg-id="FRBA1000005TW" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA1000005TW_20230222T012114SQUARE.png_20230222012115.png" tvg-chno="4003" group-title="Actualités" , Euronews en direct
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA1000005TW.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA1000005TW -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRAJ4500024MR" tvg-id="FRAJ4500024MR" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ4500024MR_20231213T033028SQUARE.png_20231213033029.png" tvg-chno="4004" group-title="Films" , Comédies - Rakuten TV
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRAJ4500024MR.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRAJ4500024MR -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBC4000001IO" tvg-id="FRBC4000001IO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC4000001IO_20231213T034714SQUARE.png_20231213034715.png" tvg-chno="4005" group-title="Nature" , Destination Nature
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBC4000001IO.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBC4000001IO -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD2300001UQ" tvg-id="FRBD2300001UQ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD2300001UQ_20231213T033040SQUARE.png_20231213033041.png" tvg-chno="4006" group-title="Films" , Family Club
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD2300001UQ.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD2300001UQ -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA3300038I4" tvg-id="FRBA3300038I4" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA3300038I4_20231213T033053SQUARE.png_20231213033053.png" tvg-chno="4007" group-title="Divertissement" , Yu-Gi-Oh!
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA3300038I4.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA3300038I4 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD41000097I" tvg-id="FRBD41000097I" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD41000097I_20231213T033048SQUARE.png_20231213033049.png" tvg-chno="4008" group-title="Culture et Documentaires" , RMC Story
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD41000097I.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD41000097I -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD4100008QS" tvg-id="FRBD4100008QS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100008QS_20231213T033047SQUARE.png_20231213033047.png" tvg-chno="4009" group-title="Culture et Documentaires" , RMC Découverte
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD4100008QS.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD4100008QS -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD39000028F" tvg-id="FRBD39000028F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD39000028F_20231101T032843SQUARE.png_20231101032844.png" tvg-chno="4010" group-title="Musique" , Vevo Noël
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD39000028F.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD39000028F -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD1500001BN" tvg-id="FRBD1500001BN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD1500001BN_20231115T012241SQUARE.png_20231115012242.png" tvg-chno="4011" group-title="Lifestyle" , Au coin de feu
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD1500001BN.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD1500001BN -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBC4700003FS" tvg-id="FRBC4700003FS" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC4700003FS_20231011T084905SQUARE.png_20231011084905.png" tvg-chno="4108" group-title="Divertissement" , A prendre ou à laisser
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBC4700003FS.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBC4700003FS -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD1900007PQ" tvg-id="FRBD1900007PQ" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD1900007PQ_20230614T005638SQUARE.png_20230614005638.png" tvg-chno="4109" group-title="Divertissement" , Qui veut gagner des millions ?
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD1900007PQ.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD1900007PQ -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA33000234L" tvg-id="FRBA33000234L" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA33000234L_20221026T004317SQUARE.png_20221026004318.png" tvg-chno="4110" group-title="Divertissement" , FailArmy
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA33000234L.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA33000234L -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBB490000412" tvg-id="FRBB490000412" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBB490000412_20220608T011550SQUARE.png_20220608011553.png" tvg-chno="4111" group-title="Divertissement" , Motus
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBB490000412.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBB490000412 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD1900005BA" tvg-id="FRBD1900005BA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD1900005BA_20231011T084909SQUARE.png_20231011084909.png" tvg-chno="4112" group-title="Divertissement" , Les Z'amours
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD1900005BA.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD1900005BA -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD3900001QP" tvg-id="FRBD3900001QP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD3900001QP_20231115T012239SQUARE.png_20231115012240.png" tvg-chno="4113" group-title="Divertissement" , Allociné
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD3900001QP.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD3900001QP -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD300000170" tvg-id="FRBD300000170" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD300000170_20230915T042735SQUARE.png_20230915042736.png" tvg-chno="4114" group-title="Divertissement" , Ardivision
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD300000170.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD300000170 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD1900006NA" tvg-id="FRBD1900006NA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD1900006NA_20230913T030712SQUARE.png_20230913030712.png" tvg-chno="4115" group-title="Divertissement" , Le meilleur d'Arthur
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD1900006NA.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD1900006NA -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA2200007G7" tvg-id="FRBA2200007G7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA2200007G7_20230913T030647SQUARE.png_20230913030648.png" tvg-chno="4116" group-title="Divertissement" , ADN
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA2200007G7.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA2200007G7 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBB49000014I" tvg-id="FRBB49000014I" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBB49000014I_20220511T011734SQUARE.png_20220511011736.png" tvg-chno="4117" group-title="Divertissement" , Gong
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBB49000014I.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBB49000014I -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD3900005MB" tvg-id="FRBD3900005MB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD3900005MB_20231101T032833SQUARE.png_20231101032834.png" tvg-chno="4118" group-title="Divertissement" , Le Meilleur de la TV Réalité
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD3900005MB.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD3900005MB -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD4100001DF" tvg-id="FRBD4100001DF" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100001DF_20231101T032835SQUARE.png_20231101032836.png" tvg-chno="4119" group-title="Divertissement" , Les Anges
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD4100001DF.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD4100001DF -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBC3900003ZH" tvg-id="FRBC3900003ZH" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC3900003ZH_20221012T021120SQUARE.png_20221012021120.png" tvg-chno="4121" group-title="Divertissement" , MGG FAST
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBC3900003ZH.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBC3900003ZH -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRAJ3800004CC" tvg-id="FRAJ3800004CC" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ3800004CC_20221026T004305SQUARE.png_20221026004305.png" tvg-chno="4122" group-title="Divertissement" , MTV Classics
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRAJ3800004CC.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRAJ3800004CC -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA10000029E" tvg-id="FRBA10000029E" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA10000029E_20220323T080106SQUARE.png_20220323080109.png" tvg-chno="4125" group-title="Divertissement" , People Are Awesome
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA10000029E.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA10000029E -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRAJ38000050Z" tvg-id="FRAJ38000050Z" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ38000050Z_20221026T004306SQUARE.png_20221026004307.png" tvg-chno="4128" group-title="Divertissement" , MTV Catfish
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRAJ38000050Z.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRAJ38000050Z -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBC900003KP" tvg-id="FRBC900003KP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC900003KP_20230913T030719SQUARE.png_20230913030719.png" tvg-chno="4131" group-title="Divertissement" , Y'a que la vérité qui compte
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBC900003KP.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBC900003KP -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBC9000041F" tvg-id="FRBC9000041F" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC9000041F_20221214T045051SQUARE.png_20221214045052.png" tvg-chno="4133" group-title="Divertissement" , Trailers
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBC9000041F.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBC9000041F -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD4100002R7" tvg-id="FRBD4100002R7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD4100002R7_20231101T032837SQUARE.png_20231101032838.png" tvg-chno="4134" group-title="Divertissement" , Popcorn
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD4100002R7.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD4100002R7 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA3300035UK" tvg-id="FRBA3300035UK" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA3300035UK_20230412T042644SQUARE.png_20230412042645.png" tvg-chno="4136" group-title="Divertissement" , Juste Pour Rire
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA3300035UK.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA3300035UK -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD110000181" tvg-id="FRBD110000181" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD110000181_20230510T043938SQUARE.png_20230510043939.png" tvg-chno="4139" group-title="Divertissement" , Culture Pub
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD110000181.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD110000181 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD41000051L" tvg-id="FRBD41000051L" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD41000051L_20231115T012300SQUARE.png_20231115012300.png" tvg-chno="4143" group-title="Divertissement" , Wasabi
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD41000051L.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD41000051L -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA3300019CI" tvg-id="FRBA3300019CI" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA3300019CI_20220323T075800SQUARE.png_20220323075803.png" tvg-chno="4160" group-title="Séries TV" , Doctor Who
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA3300019CI.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA3300019CI -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRAJ38000061J" tvg-id="FRAJ38000061J" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ38000061J_20221026T004308SQUARE.png_20221026004308.png" tvg-chno="4631" group-title="Jeunesse" , iCarly
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRAJ38000061J.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRAJ38000061J -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD1900012T7" tvg-id="FRBD1900012T7" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD1900012T7_20230913T030706SQUARE.png_20230913030707.png" tvg-chno="4634" group-title="Jeunesse" , Charlotte aux Fraises
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD1900012T7.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD1900012T7 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBC2100002JA" tvg-id="FRBC2100002JA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100002JA_20230412T042641SQUARE.png_20230412042641.png" tvg-chno="4710" group-title="Musique" , Vevo Hip-Hop & R&B
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBC2100002JA.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBC2100002JA -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBC2100001YY" tvg-id="FRBC2100001YY" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC2100001YY_20230412T042642SQUARE.png_20230412042643.png" tvg-chno="4716" group-title="Musique" , Vevo Pop
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBC2100001YY.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBC2100001YY -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD1900013CB" tvg-id="FRBD1900013CB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD1900013CB_20230614T005643SQUARE.png_20230614005643.png" tvg-chno="4718" group-title="Musique" , Vevo '90s & '00s
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD1900013CB.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD1900013CB -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA2200001SP" tvg-id="FRBA2200001SP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA2200001SP_20230614T005612SQUARE.png_20230614005613.png" tvg-chno="4719" group-title="Musique" , Qwest TV
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA2200001SP.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA2200001SP -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA1500001G6" tvg-id="FRBA1500001G6" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA1500001G6_20231213T033026SQUARE.png_20231213033027.png" tvg-chno="4722" group-title="Musique" , Deluxe Lounge HD
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA1500001G6.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA1500001G6 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBB1900001FA" tvg-id="FRBB1900001FA" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBB1900001FA_20220323T075747SQUARE.png_20220323075750.png" tvg-chno="4731" group-title="Musique" , Clubbing TV
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBB1900001FA.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBB1900001FA -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBC900001LB" tvg-id="FRBC900001LB" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC900001LB_20230208T013112SQUARE.png_20230208013112.png" tvg-chno="4734" group-title="Musique" , Émotion
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBC900001LB.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBC900001LB -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD800002PY" tvg-id="FRBD800002PY" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD800002PY_20230412T042659SQUARE.png_20230412042700.png" tvg-chno="4737" group-title="Musique" , Vialma
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD800002PY.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD800002PY -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBC3000001GV" tvg-id="FRBC3000001GV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBC3000001GV_20230208T013122SQUARE.png_20230208013123.png" tvg-chno="4954" group-title="Films" , Ciné Prime
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBC3000001GV.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBC3000001GV -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBD19000095S" tvg-id="FRBD19000095S" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBD19000095S_20230614T005621SQUARE.png_20230614005622.png" tvg-chno="4956" group-title="Films" , Ciné Western
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBD19000095S.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBD19000095S -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBB340000115" tvg-id="FRBB340000115" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBB340000115_20220323T075813SQUARE.png_20220323075816.png" tvg-chno="4957" group-title="Films" , Emotion'L
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBB340000115.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBB340000115 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA2200010VN" tvg-id="FRBA2200010VN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA2200010VN_20220323T080047SQUARE.png_20220323080050.png" tvg-chno="4963" group-title="Films" , MyTime Movie Network
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA2200010VN.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA2200010VN -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBB4600002K5" tvg-id="FRBB4600002K5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBB4600002K5_20220323T080533SQUARE.png_20220323080535.png" tvg-chno="4966" group-title="Films" , Scream'IN
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBB4600002K5.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBB4600002K5 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA3300021ME" tvg-id="FRBA3300021ME" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA3300021ME_20220323T080346SQUARE.png_20220323080349.png" tvg-chno="4969" group-title="Films" , Wild Side TV
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA3300021ME.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA3300021ME -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRAJ3800002W5" tvg-id="FRAJ3800002W5" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ3800002W5_20221026T004301SQUARE.png_20221026004302.png" tvg-chno="4975" group-title="Films" , Pluto TV Ciné
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRAJ3800002W5.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRAJ3800002W5 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBB39000020C" tvg-id="FRBB39000020C" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBB39000020C_20230614T005557SQUARE.png_20230614005557.png" tvg-chno="4981" group-title="Films" , Ciné Nanar
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBB39000020C.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBB39000020C -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA33000341O" tvg-id="FRBA33000341O" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA33000341O_20230208T013127SQUARE.png_20230208013127.png" tvg-chno="4983" group-title="Films" , Films Romantiques - Rakuten TV
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA33000341O.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA33000341O -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA2200008H8" tvg-id="FRBA2200008H8" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA2200008H8_20220323T080327SQUARE.png_20220323080330.png" tvg-chno="4984" group-title="Films" , UniversCiné
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA2200008H8.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA2200008H8 -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA1000009KO" tvg-id="FRBA1000009KO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA1000009KO_20220323T080440SQUARE.png_20220323080443.png" tvg-chno="4990" group-title="Films" , Brefcinema
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA1000009KO.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA1000009KO -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBB50000016B" tvg-id="FRBB50000016B" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBB50000016B_20221109T010512SQUARE.png_20221109010512.png" tvg-chno="4993" group-title="Films" , Runtime
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBB50000016B.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBB50000016B -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRBA3300033GO" tvg-id="FRBA3300033GO" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRBA3300033GO_20221012T021124SQUARE.png_20221012021125.png" tvg-chno="4994" group-title="Films" , Top Films - Rakuten TV
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRBA3300033GO.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRBA3300033GO -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRAJ4500025AN" tvg-id="FRAJ4500025AN" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ4500025AN_20221026T004313SQUARE.png_20221026004313.png" tvg-chno="4998" group-title="Films" , Films dramatiques - Rakuten TV
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRAJ4500025AN.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRAJ4500025AN -f mpegts pipe:1
+
+#EXTINF:-1 channel-id="samsung-FRAJ4500023UP" tvg-id="FRAJ4500023UP" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/FRAJ4500023UP_20220323T075857SQUARE.png_20220323075900.png" tvg-chno="4999" group-title="Films" , Films d'action - Rakuten TV
+pipe://ffmpeg -probesize 10M -analyzeduration 0 -fpsprobesize 0 -headers user-agent:\ okhttp/4.10.0\r\n -i https://i.mjh.nz/SamsungTVPlus/FRAJ4500023UP.m3u8 -vcodec copy -acodec copy -metadata service_name=samsung-FRAJ4500023UP -f mpegts pipe:1
+iptv/playlists/iptv/fr_samsung.m3u8 at main · schumijo/iptv 
