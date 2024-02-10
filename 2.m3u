@@ -1,3 +1,4 @@
+#EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz,https://bcumedia.pro/epg.xml.gz,https://gw.ottservice.org/epg/download/epg.xml.gz,http://tapitv.com/ttv.xmltv.xml.gz,http://epg.it999.ru/epg.xml.gz,http://1lot.tv/epg/epg.xml"
 #EXTINF:-1 group-title="С Русским переводом" tvg-logo="https://new.tizam.pw/images/pr_img_videos/b/62034_bol_shaya_igra_istoriya_charli_sammer1.jpg",Большая Игра: История Чарли Саммер | The Big Game: A Charly Summer Story (2024)
 https://video5.tizam.cc/films/big-game-a-charly-summer-story2.mp4
 #EXTINF:-1 group-title="С Русским переводом" tvg-logo="https://new.tizam.pw/images/pr_img_videos/s/62032_stol_neobhodimyj_pereryv.jpg",Столь Необходимый Перерыв | A Much-Needed Break (2022)
