@@ -1,3 +1,5 @@
+#EXTM3U url-tvg="http://iptvx.one/epg/epg.xml.gz,https://bcumedia.pro/epg.xml.gz,https://gw.ottservice.org/epg/download/epg.xml.gz,http://tapitv.com/ttv.xmltv.xml.gz,http://epg.it999.ru/epg.xml.gz,http://1lot.tv/epg/epg.xml"
+
 #EXTINF:0 group-title="SHAREEXT@Кино_пакет" tvg-logo="https://i.ibb.co/qMdJ4yz/s.png",Вечная ночь
 https://video1.tizam.cc/files/2555484/forever_night__1998___s_russkim_perevodom.mp4
 #EXTINF:0 group-title="SHAREEXT@Кино_пакет" tvg-logo="https://i.ibb.co/qMdJ4yz/s.png",Невесты и Шлюхи
